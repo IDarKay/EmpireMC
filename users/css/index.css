@@ -1,0 +1,82 @@
+
+#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#table td, th {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
+#table-div {
+    margin-top: 20px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+
+#table {
+    width: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+}
+
+
+#table:first-child {
+    background-color: rgba(109,122,222,0.64);
+}
+
+#table td {
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+}
+
+#table tr:hover td {
+    background-color: rgba(237,236,254,0.64);
+}
+
+#table th {
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+#categories-div {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+
+#categories-div button {
+    width: 150px;
+    padding: 5px 20px;
+    margin: 0 5px;
+    background-color: rgba(109,122,222,0.64);
+    border-color: unset;
+    border-radius: 20px;
+
+}
+
+#categories-div button:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+}
+
+header{
+    background-color: rgba(196,210,245,0.64);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    left: 0;
+    right: 0;
+}
+
+body{
+    background-color: rgba(196,210,245,0.64);
+}
