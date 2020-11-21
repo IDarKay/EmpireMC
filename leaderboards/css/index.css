@@ -1,0 +1,45 @@
+/*table, th, td {*/
+/*    border: 1px solid black;*/
+/*}*/
+body{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#table td, th {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+#table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+
+#table:first-child {
+    background-color: rgba(109,122,222,0.64);
+}
+
+#table td {
+    padding: 5px 20px;
+    background-color: white;
+    color: black;
+}
+
+#table tr:hover td {
+    background-color: rgba(237,236,254,0.64);
+}
+
+#table th {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
